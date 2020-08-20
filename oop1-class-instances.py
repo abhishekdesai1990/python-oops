@@ -2,7 +2,7 @@ class Employee:
     '''__init__ is a constructor/initiator method of class, first argument should always be self ie instance'''
 
     def __init__(self,first,last,pay):
-        self.first = first
+        self.first = first #this are instance variables
         self.last = last
         self.pay = pay
         self.email = first + '.' + last + '@company.com'
